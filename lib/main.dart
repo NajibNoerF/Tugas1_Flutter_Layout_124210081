@@ -46,7 +46,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(10),
                 child: const Text(
-                  'LOGIN',
+                  'AKU HARDCORE LEK!!!',
                   style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w500,
@@ -55,6 +55,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   )
                   ),
                 ),
+            Image.asset('img/bg.jpg',
+              height: 300,
+              width: 300,
+            ),
             Container(
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(10),
@@ -72,6 +76,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 ),
               ),
             ),
+
             Container(
               padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
               child: TextField(
